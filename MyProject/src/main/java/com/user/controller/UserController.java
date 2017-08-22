@@ -10,6 +10,7 @@ public class UserController {
 	@RequestMapping("user.test")
 	public void testUser(){
 		System.out.println("user.test들어옴");
+		System.out.println("test");
 	}
 
 }
