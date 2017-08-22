@@ -8,6 +8,7 @@ public class QnAController {
 
 	@RequestMapping("/qna")
 	public String qna(){
+		System.out.println("qna~~~~~~~~~~~");
 		return "qna";
 	}
 	
